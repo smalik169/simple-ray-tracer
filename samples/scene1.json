@@ -1,0 +1,42 @@
+{
+    "name": "Scene1.png",
+    "objects": [
+        {
+            "shape": {"type": "sphere", "center": [2.5, 2.3, 1.0], "radius": 1.0}, 
+            "material": {"color": [0.9, 0.1, 0.8], "glow": [0.0, 0.0, 0.0], "diffusion": 0.7, "reflection": 0.3}
+        },
+        {
+            "shape": {"type": "sphere", "center": [2.5, 2.3, 3.0], "radius": 0.4}, 
+            "material": {"color": [0.0, 0.0, 0.7], "glow": [0.0, 0.0, 0.0], "diffusion": 0.8, "reflection": 0.1}
+        },
+
+        {
+            "shape": {"type": "plane", "origin": [0.0, 0.0, 0.0], "normal": [0.0, 0.0, 1.0]}, 
+            "material": {"color": [0.0, 0.0, 1.0], "glow": [0.0, 0.0, 0.0], "diffusion": 0.2, "reflection": 0.5}
+        },
+        {
+            "shape": {"type": "plane", "origin": [0.0, 0.0, 0.0], "normal": [0.0, 1.0, 0.0]}, 
+            "material": {"color": [1.0, 0.0, 0.0], "glow": [0.0, 0.0, 0.0], "diffusion": 0.5, "reflection": 0.4}
+        },
+        {
+            "shape": {"type": "plane", "origin": [0.0, 0.0, 0.0], "normal": [1.0, 0.0, 0.0]}, 
+            "material": {"color": [0.0, 1.0, 0.0], "glow": [0.0, 0.0, 0.0], "diffusion": 0.5, "reflection": 0.4}
+        },
+        {
+            "shape": {"type": "plane", "origin": [10.0, 10.0, 10.0], "normal": [0.0, -1.0, 0.0]}, 
+            "material": {"color": [1.0, 1.0, 1.0], "glow": [0.0, 0.0, 0.0], "diffusion": 0.05, "reflection": 0.9}
+        },
+        {
+            "shape": {"type": "plane", "origin": [10.0, 10.0, 10.0], "normal": [-1.0, 0.0, 0.0]}, 
+            "material": {"color": [1.0, 1.0, 1.0], "glow": [0.0, 0.0, 0.0], "diffusion": 0.05, "reflection": 0.9}
+        }
+
+    ],
+
+    "lights":[
+        {"type": "light_bulb", "position": [6.0, 3.0, 4.0], "color": [1.0, 1.0, 1.0], "intensity": 3.0},
+        {"type": "light_bulb", "position": [2.0, 5.0, 4.0], "color": [1.0, 1.0, 1.0], "intensity": 2.0}
+    ],
+    
+    "camera": {"gamma": 2.5, "focus": [4.5, 5.5, 2.0], "target": [0.0, 0.1, 1.0], "sky": [0.0, 0.0, 1.0], "field_of_view": 1.57, "resolution": [3200, 1600]}
+}

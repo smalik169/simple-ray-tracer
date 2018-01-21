@@ -1,0 +1,45 @@
+{
+    "name": "Scene2.png",
+    "objects": [
+        {
+            "shape": {"type": "hyperbolic_paraboloid", "origin": [0.0, 0.0, 0.0], "q": 5.0, "p": 5.0}, 
+            "material": {"color": [1.0, 0.0, 1.0], "glow": [0.0, 0.0, 0.0], "diffusion": 0.01, "reflection": 0.9}
+        },
+        {
+            "shape": {"type": "sphere", "center": [0.0, 0.0, 4.0], "radius": 2.0}, 
+            "material": {"color": [0.95, 0.01, 0.01], "glow": [0.0, 0.0, 0.0], "diffusion": 0.4, "reflection": 0.6}
+        },
+        {
+            "shape": {"type": "sphere", "center": [2.5, 2.0, 4.0], "radius": 1.0}, 
+            "material": {"color": [0.95, 0.01, 0.01], "glow": [0.0, 0.0, 0.0], "diffusion": 0.4, "reflection": 0.6}
+        },
+        {
+            "shape": {"type": "sphere", "center": [5.0, 4.0, 4.0], "radius": 1.0}, 
+            "material": {"color": [0.95, 0.01, 0.01], "glow": [0.0, 0.0, 0.0], "diffusion": 0.4, "reflection": 0.6}
+        },
+        {
+            "shape": {"type": "sphere", "center": [-2.5, 2.0, 4.0], "radius": 1.0}, 
+            "material": {"color": [0.95, 0.01, 0.01], "glow": [0.0, 0.0, 0.0], "diffusion": 0.4, "reflection": 0.6}
+        },
+        {
+            "shape": {"type": "sphere", "center": [-5.0, 4.0, 4.0], "radius": 1.0}, 
+            "material": {"color": [0.95, 0.01, 0.01], "glow": [0.0, 0.0, 0.0], "diffusion": 0.4, "reflection": 0.6}
+        },
+        {
+            "shape": {"type": "plane", "origin": [0.0, -5.0, 0.0], "normal": [0.0, 1.0, 0.0]}, 
+            "material": {"color": [0.1, 0.1, 0.95], "glow": [0.0, 0.0, 0.0], "diffusion": 0.1, "reflection": 0.9}
+        },
+        {
+            "shape": {"type": "plane", "origin": [0.0, 8.0, 0.0], "normal": [0.0, -1.0, 0.0]}, 
+            "material": {"color": [1.0, 1.0, 1.0], "glow": [0.0, 0.0, 0.0], "diffusion": 0.1, "reflection": 0.7}
+        }
+
+    ],
+
+    "lights":[
+        {"type": "light_bulb", "position": [4.0, 6.0, 15.0], "color": [1.0, 1.0, 1.0], "intensity": 20.0},
+        {"type": "light_bulb", "position": [-8.0, 5.0, 8.0], "color": [1.0, 1.0, 1.0], "intensity": 10.0}
+    ],
+    
+    "camera": {"gamma": 2.8, "focus": [0.0, 4.0, 10.0], "target": [0.0, 0.0, 5.0], "sky": [0.0, 0.0, 1.0], "field_of_view": 1.57, "resolution": [3200, 1600]}
+}
